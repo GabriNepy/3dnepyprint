@@ -6,16 +6,14 @@
   --card-bg: #003399;
 }
 
-/* Reset */
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
   background: var(--secondary);
 }
 
-/* Hero */
 .hero {
-  background: url('https://images.unsplash.com/photo-1581090700227-4c4f50b6d2b3') center/cover no-repeat;
+  background: url('image.png') center/cover no-repeat;
   height: 300px;
   display: flex;
   align-items: center;
@@ -51,7 +49,6 @@ body {
   font-weight: bold;
 }
 
-/* Serviços */
 .services {
   background: var(--primary);
   color: var(--text);
@@ -92,7 +89,6 @@ body {
   margin-bottom: 10px;
 }
 
-/* Pagamento */
 .payment {
   text-align: center;
   padding: 40px 20px;
@@ -112,7 +108,6 @@ body {
   background: #001f66;
 }
 
-/* WhatsApp */
 .whatsapp-float {
   position: fixed;
   width: 60px;
@@ -129,7 +124,6 @@ body {
   justify-content: center;
 }
 
-/* Rodapé */
 footer {
   text-align: center;
   padding: 15px;
